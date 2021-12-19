@@ -1,0 +1,100 @@
+Sexe,CA,CSP,Foot seulement,Foot et d'autres activités sportive,Autres activités sportive que le Foot,Pas d'activités sportive,Inscription,Conditions,Matériaux,Durée pour arriver au club,Frequence de pratique,Période par séance,Le plaisir,Defoulement,Entretenir le corps,Prendre la masse musculaire,Perdre le poids,Avoir une bonne condition physique,Avoir plus d'energie,Rencontrer de nouvelles personnes ,Equilibre de vie,Mental clair et serein,Developper la souplesse ,Réduire le stress,Eviter la routine , Confiance,"Dans le cas ou vous ne pratiquez pas d'activité sportive , quelles sont les raisons ?",Budget mensuel,Investissement,Seul,Avec un(e) ami€,Avec un(e) coupin€,Avec la famille,Avec une équipe sportive,Coach professionel,Musique a haute volume],Spectateurs,En plein air,Repas sain,Dormir,Vaccin naturel,sport indispensable
+Homme,20-30 ans,Etudiant,Non,Oui,Non,Non,Oui,3,4,Entre 5 et 15 min,5 fois par semaine,Entre 1 et 2h,3,4,4,4,1,4,3,1,4,4,1,4,4,3,,Entre 50 et 100 dt,4,2,4,4,1,3,2,3,1,4,4,4,4,4
+Homme,20-30 ans,Etudiant,Non,Oui,Non,Non,Oui,1,1,Moins de 5 min,1 fois par semaine,Moins d'une 1h,4,4,3,2,3,2,2,1,3,3,2,4,4,4,,Entre 20 et 50 dt,3,2,3,4,2,4,4,4,1,1,3,4,4,3
+Femme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Oui,3,3,Plus de 30 min,1 fois par semaine,Moins d'une 1h,2,4,4,2,1,4,2,2,3,4,2,4,3,4,,Entre 20 et 50 dt,1,3,4,3,1,2,4,3,1,4,3,3,4,4
+Homme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Oui,2,2,Moins de 5 min,5 fois par semaine,Entre 1 et 2h,4,3,3,2,3,4,4,4,3,3,2,4,4,4,,Entre 50 et 100 dt,2,3,4,4,1,3,3,3,1,1,4,4,3,3
+Homme,20-30 ans,Etudiant,Oui,Non ,Non,Non,Oui,2,4,Entre 5 et 15 min,3 fois par semaine,Entre 1 et 2h,4,4,4,4,1,4,4,3,4,4,4,4,4,4,,Entre 20 et 50 dt,3,2,3,1,1,4,4,3,2,2,2,4,2,2
+Femme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Oui,3,3,Entre 5 et 15 min,1 fois par semaine,Moins d'une 1h,4,4,2,1,1,2,2,2,3,4,3,4,4,2,,Entre 20 et 50 dt,2,2,2,2,2,2,1,3,1,3,3,2,3,2
+Homme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,3,3,Entre 15 et 30 min,4 fois par semaine,Entre 1 et 2h,4,2,4,4,2,4,4,4,3,4,4,4,4,4,,Entre 20 et 50 dt,2,2,4,4,1,3,3,2,1,4,4,4,4,4
+Femme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Oui,3,3,Entre 5 et 15 min,1 fois par semaine,Moins d'une 1h,2,4,3,3,1,3,3,3,3,4,3,4,3,4,,Entre 20 et 50 dt,3,1,2,2,1,3,2,3,1,4,3,3,4,4
+Homme,20-30 ans,Etudiant,Oui,Non ,Non,Non,Oui,1,1,Plus de 30 min,1 fois par semaine,Moins d'une 1h,1,1,2,2,1,2,1,1,1,1,1,1,1,2,,Moins de 20 dt,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Homme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,3,2,Entre 15 et 30 min,5 fois par semaine,Entre 1 et 2h,4,4,4,4,3,4,3,2,3,3,3,4,2,1,,Entre 50 et 100 dt,3,2,4,4,1,3,1,3,2,3,4,4,3,3
+Homme,20-30 ans,Etudiant,Non,Oui,Non,Non,Oui,4,4,Entre 15 et 30 min,1 fois par semaine,Moins d'une 1h,3,3,3,1,3,3,3,3,3,3,3,3,3,3,,Entre 20 et 50 dt,2,2,3,3,1,3,3,3,3,3,2,3,3,1
+Homme,20-30 ans,Etudiant,Oui,Non ,Non,Non,Oui,1,2,Entre 5 et 15 min,3 fois par semaine,Entre 1 et 2h,1,2,1,4,4,3,3,4,3,4,3,4,3,4,,Entre 20 et 50 dt,4,1,4,3,3,4,3,4,3,4,3,4,4,4
+Homme,20-30 ans,Etudiant,Oui,Non ,Non,Non,Oui,3,3,Entre 15 et 30 min,1 fois par semaine,Entre 1 et 2h,4,3,4,4,1,4,4,3,3,4,3,3,3,3,,Entre 20 et 50 dt,3,3,4,3,4,4,4,2,3,4,4,4,3,4
+Homme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,3,4,Entre 5 et 15 min,3 fois par semaine,Entre 1 et 2h,2,4,3,4,3,3,3,1,1,2,1,4,4,1,,Entre 20 et 50 dt,3,4,4,4,1,4,1,4,3,4,3,2,4,3
+Homme,40-50 ans,Salarié,Oui,Non ,Non,Non,Oui,1,3,Entre 15 et 30 min,2 fois par semaines,Entre 1 et 2h,4,4,4,3,3,3,3,2,2,2,1,3,3,3,,Entre 50 et 100 dt,3,1,1,3,1,1,1,4,1,1,1,4,3,4
+Femme,30-40 ans,Sans activité professionelle,Non,Non ,Oui,Non,Oui,5,5,Entre 15 et 30 min,5 fois par semaine,Entre 1 et 2h,3,3,4,4,4,4,4,1,2,3,3,3,3,4,,Plus de 100 dt,4,1,3,4,1,2,1,4,3,4,1,4,4,3
+Femme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Oui,1,1,Moins de 5 min,1 fois par semaine,Moins d'une 1h,2,3,3,1,4,4,4,2,3,3,1,3,2,3,,Entre 20 et 50 dt,2,1,3,3,2,3,2,3,1,3,2,3,3,2
+Homme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,2,1,Entre 5 et 15 min,2 fois par semaines,Entre 1 et 2h,3,4,3,4,1,4,3,2,4,4,3,4,4,4,,Entre 20 et 50 dt,3,2,4,4,3,2,4,4,2,3,4,4,2,2
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,4,3,Moins de 5 min,3 fois par semaine,Entre 1 et 2h,4,4,4,4,1,4,4,3,4,4,2,4,4,3,,Entre 20 et 50 dt,3,1,4,4,1,1,4,3,2,2,4,3,2,3
+Homme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,3,2,Plus de 30 min,1 fois par semaine,Plus de 3h,4,4,4,4,4,4,4,4,4,4,4,4,4,4,,Plus de 100 dt,4,2,2,2,2,2,4,1,4,4,2,4,4,3
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,4,3,Entre 15 et 30 min,2 fois par semaines,Entre 1 et 2h,3,3,3,2,2,3,3,2,2,3,3,3,3,3,,Entre 20 et 50 dt,4,1,3,2,2,3,4,4,1,3,4,4,4,3
+Homme,moins de 20 ans,Etudiant,Oui,Non ,Non,Non,Oui,2,2,Entre 15 et 30 min,1 fois par semaine,Moins d'une 1h,2,3,3,2,3,4,3,3,2,1,2,1,2,2,,Moins de 20 dt,3,1,3,3,2,1,1,4,3,4,1,4,3,3
+Femme,moins de 20 ans,éleve ,Non,Non ,Oui,Non,Oui,3,3,Moins de 5 min,Toujours,Entre 1 et 2h,3,3,3,3,3,3,3,2,3,3,3,3,3,3,,Entre 20 et 50 dt,3,1,1,4,2,3,1,4,4,4,3,3,2,3
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,3,3,Plus de 30 min,Toujours,Entre 2 et 3h,3,4,2,2,1,4,4,4,4,4,4,4,4,2,,Entre 50 et 100 dt,3,1,2,3,4,4,4,3,2,4,3,3,4,3
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,1,1,Moins de 5 min,1 fois par semaine,Moins d'une 1h,4,3,3,1,4,4,3,1,2,3,4,2,4,4,,Entre 20 et 50 dt,1,4,4,2,4,4,4,4,2,4,1,3,4,3
+Femme,30-40 ans,Sans activité professionelle,Non,Non ,Oui,Non,Oui,2,4,Entre 5 et 15 min,4 fois par semaine,Entre 1 et 2h,2,4,3,3,3,4,3,2,2,2,3,4,4,3,,Entre 20 et 50 dt,3,3,4,4,2,3,1,3,2,3,3,3,3,4
+Homme,20-30 ans,Etudiant,Oui,Non ,Non,Non,Oui,3,3,Plus de 30 min,1 fois par semaine,Moins d'une 1h,2,2,2,1,2,3,1,2,3,2,3,1,2,1,,Entre 50 et 100 dt,2,1,2,1,3,2,1,2,2,1,2,3,3,1
+Homme,40-50 ans,Salarié,Oui,Non ,Non,Non,Oui,4,3,Entre 5 et 15 min,2 fois par semaines,Entre 1 et 2h,3,4,4,4,3,3,3,1,1,1,3,4,4,4,,Moins de 20 dt,3,2,3,4,2,3,2,4,3,3,4,3,3,3
+Homme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Oui,1,1,Moins de 5 min,1 fois par semaine,Moins d'une 1h,3,3,3,4,1,3,3,3,3,3,3,3,3,3,,Entre 20 et 50 dt,3,1,3,1,1,4,2,4,1,3,3,4,3,3
+Homme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Oui,3,3,Plus de 30 min,3 fois par semaine,Entre 1 et 2h,2,2,4,4,4,2,2,1,1,1,3,4,1,1,,Entre 50 et 100 dt,4,1,4,1,1,4,4,4,1,1,4,4,3,3
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,3,1,Entre 5 et 15 min,2 fois par semaines,Entre 2 et 3h,2,1,2,1,2,2,2,2,1,2,2,2,1,1,,Plus de 100 dt,3,4,3,4,2,3,3,2,1,3,2,3,3,3
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,2,4,Entre 15 et 30 min,3 fois par semaine,Moins d'une 1h,3,3,4,3,1,4,4,1,4,4,4,4,4,4,,Entre 50 et 100 dt,4,4,1,1,1,1,4,4,1,2,4,4,3,3
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,3,1,Moins de 5 min,1 fois par semaine,Entre 1 et 2h,4,4,3,3,4,4,3,1,1,4,3,4,4,3,,Entre 20 et 50 dt,3,4,1,1,1,1,1,4,1,3,4,4,4,4
+Homme,20-30 ans,Etudiant,Oui,Non ,Non,Non,Oui,3,4,Entre 15 et 30 min,2 fois par semaines,Entre 1 et 2h,4,4,4,4,4,4,4,4,4,4,4,4,4,4,,Moins de 20 dt,2,1,2,2,3,4,1,2,1,4,3,4,3,4
+Femme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Oui,5,3,Plus de 30 min,3 fois par semaine,Entre 1 et 2h,3,3,2,1,1,2,3,2,3,2,3,3,3,3,,Entre 20 et 50 dt,3,1,3,3,2,2,2,2,1,1,4,3,3,2
+Homme,moins de 20 ans,Etudiant,Oui,Non ,Non,Non,Oui,3,4,Entre 5 et 15 min,3 fois par semaine,Entre 1 et 2h,3,3,2,1,2,2,3,2,3,4,3,4,3,2,,Entre 20 et 50 dt,1,2,4,4,1,3,1,4,2,3,3,2,3,3
+Homme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Oui,5,2,Plus de 30 min,2 fois par semaines,Moins d'une 1h,3,4,2,2,3,2,3,2,2,3,2,3,2,3,,Entre 20 et 50 dt,2,4,3,1,1,2,4,4,1,2,3,2,3,2
+Homme,20-30 ans,Sans activité professionelle,Non,Non ,Oui,Non,Oui,3,4,Entre 15 et 30 min,2 fois par semaines,Entre 1 et 2h,2,1,2,2,1,3,2,1,2,2,1,1,2,2,,Moins de 20 dt,3,1,2,1,1,1,1,2,2,1,1,3,4,3
+Homme,20-30 ans,Sans activité professionelle,Non,Non ,Oui,Non,Oui,3,4,Entre 15 et 30 min,2 fois par semaines,Entre 1 et 2h,2,1,3,4,4,4,4,4,4,4,4,4,3,3,,Moins de 20 dt,4,3,2,1,1,3,4,4,3,4,4,1,3,3
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,2,3,Entre 5 et 15 min,5 fois par semaine,Entre 1 et 2h,4,2,1,1,4,4,4,4,4,4,4,4,4,4,,Entre 20 et 50 dt,4,3,3,4,1,4,2,2,2,4,4,4,4,4
+Femme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Oui,1,1,Plus de 30 min,1 fois par semaine,Moins d'une 1h,4,4,2,1,1,3,3,4,4,1,1,2,3,3,,Moins de 20 dt,2,1,4,4,4,4,2,1,1,4,2,4,3,2
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,4,3,Entre 15 et 30 min,1 fois par semaine,Entre 1 et 2h,4,4,3,2,1,3,4,2,4,3,2,4,3,2,,Entre 20 et 50 dt,3,1,3,2,1,4,4,4,1,3,2,3,4,3
+Homme,40-50 ans,Cadre,Non,Oui,Non,Non,Non,0,0,,,,5,5,5,3,3,4,4,4,5,5,1,4,4,2,Manque de temps,Entre 50 et 100 dt,3,4,4,1,5,5,3,2,1,5,4,5,5,5
+Homme,20-30 ans,Etudiant,Oui,Non ,Non,Non,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Manque de temps, Manque de moyens",Entre 20 et 50 dt,2,0,0,0,0,0,0,0,0,0,3,4,4,3
+Homme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,5,4,Entre 5 et 15 min,3 fois par semaine,Entre 1 et 2h,3,5,5,5,5,5,4,3,5,5,4,4,5,5,,Entre 20 et 50 dt,3,1,4,3,2,3,1,4,2,4,3,4,3,4
+Homme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,2,3,Entre 15 et 30 min,5 fois par semaine,Moins d'une 1h,2,3,3,4,1,4,4,3,4,4,2,3,3,4,,Plus de 100 dt,5,2,4,4,3,3,4,3,1,3,4,5,3,4
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,3,3,Plus de 30 min,3 fois par semaine,Entre 1 et 2h,4,4,4,4,4,4,4,1,4,4,4,4,4,4,,Entre 50 et 100 dt,1,0,0,0,0,0,0,0,0,0,2,4,5,2
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,3,4,Moins de 5 min,2 fois par semaines,Moins d'une 1h,5,4,4,4,1,4,4,3,4,4,3,5,5,4,,Entre 20 et 50 dt,3,1,5,3,3,3,5,3,1,3,3,4,4,3
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,3,5,Moins de 5 min,3 fois par semaine,Entre 1 et 2h,3,5,5,5,5,5,3,2,3,3,4,4,4,4,,Entre 20 et 50 dt,3,4,5,1,1,5,5,2,1,3,3,5,3,3
+Homme,30-40 ans,Sans activité professionelle,Non,Oui,Non,Non,Oui,3,3,Moins de 5 min,3 fois par semaine,Entre 1 et 2h,3,5,4,5,5,4,5,2,4,3,4,5,4,5,,Entre 20 et 50 dt,4,2,5,4,1,4,2,5,2,3,3,4,4,4
+Femme,30-40 ans,Sans activité professionelle,Non,Non ,Oui,Non,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Manque de moyens,Moins de 20 dt,3,0,0,0,0,0,0,0,0,0,4,4,4,3
+Homme,20-30 ans,Etudiant,Oui,Non ,Non,Non,Non,0,3,Entre 15 et 30 min,2 fois par semaines,Entre 1 et 2h,5,3,3,3,1,3,3,3,3,3,3,3,3,3,Manque de temps,Entre 20 et 50 dt,2,0,0,0,0,0,0,0,0,0,4,3,3,5
+Femme,moins de 20 ans,Etudiant,Non,Non ,Oui,Non,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Manque de temps,Entre 20 et 50 dt,1,0,0,0,0,0,0,0,0,0,3,4,3,5
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,4,4,Entre 5 et 15 min,4 fois par semaine,Moins d'une 1h,3,5,3,3,5,5,4,2,4,3,4,5,5,5,,Entre 50 et 100 dt,4,1,5,4,2,2,1,5,3,2,2,4,4,4
+Femme,20-30 ans,Etudiant,Non,Oui,Non,Non,Non,0,0,,1 fois par semaine,Moins d'une 1h,2,2,0,0,0,0,2,0,0,2,0,2,0,0,"Manque de temps, Manque de moyens",Entre 20 et 50 dt,3,0,2,0,0,3,0,5,0,5,4,3,5,5
+Homme,20-30 ans,Etudiant,Non,Oui,Non,Non,Non,0,0,,5 fois par semaine,Entre 1 et 2h,5,5,5,4,4,4,4,3,4,5,4,5,5,4,Manque de temps,Plus de 100 dt,5,4,2,1,1,4,5,5,4,3,4,4,4,5
+Homme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,2,1,Entre 5 et 15 min,2 fois par semaines,Entre 1 et 2h,3,2,3,3,3,5,3,2,3,5,3,5,4,2,,Entre 20 et 50 dt,1,5,0,0,0,0,5,3,2,5,4,5,4,5
+Homme,20-30 ans,Etudiant,Non,Oui,Non,Non,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Manque de temps, Manque de moyens",Entre 20 et 50 dt,2,0,0,0,0,0,0,0,0,0,3,3,5,4
+Femme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Non,0,0,,,,3,3,4,3,4,4,4,2,4,4,4,4,4,4,"Manque de temps, Manque de motivation",Entre 20 et 50 dt,5,1,1,1,1,4,3,4,1,4,2,3,3,5
+Homme,20-30 ans,Sans activité professionelle,Non,Oui,Non,Non,Oui,2,2,Entre 5 et 15 min,4 fois par semaine,Entre 1 et 2h,5,5,5,3,2,5,4,3,4,5,2,4,4,3,,Entre 20 et 50 dt,3,4,4,4,4,4,2,3,2,3,4,5,3,3
+Femme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Non,0,0,,,,3,5,4,2,4,4,4,1,5,5,4,5,5,5,"Manque de temps, Manque de moyens",Entre 20 et 50 dt,3,1,5,5,3,1,3,5,1,5,3,5,5,5
+Femme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Non,0,0,,,,2,5,3,2,4,4,4,2,4,4,4,4,4,4,"Manque de temps, Manque de motivation, Manque de moyens",Entre 20 et 50 dt,3,3,3,5,3,3,2,2,1,3,2,5,5,4
+Homme,20-30 ans,Etudiant,Non,Oui,Non,Non,Oui,2,2,Moins de 5 min,2 fois par semaines,Entre 1 et 2h,5,5,4,4,5,4,4,3,4,4,3,5,5,3,,Entre 20 et 50 dt,2,3,5,3,3,3,1,2,1,5,4,5,5,4
+Homme,30-40 ans,Entrepreneur,Non,Non ,Non,Oui,Non,0,0,,,,0,5,5,0,4,5,1,1,4,4,1,4,2,2,"Manque de temps, Manque de motivation",Moins de 20 dt,2,5,4,3,3,3,2,1,1,5,3,4,4,3
+Femme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Manque de temps,Entre 20 et 50 dt,4,1,5,5,5,5,5,0,0,5,4,5,5,5
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Non,0,0,,2 fois par semaines,Entre 1 et 2h,5,5,5,4,5,5,5,3,5,5,4,5,4,3,Manque de motivation,Entre 20 et 50 dt,1,5,4,4,4,5,5,5,1,4,4,5,4,5
+Homme,20-30 ans,Etudiant,Non,Oui,Non,Non,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Manque de temps, Manque de motivation",Entre 50 et 100 dt,2,0,0,0,0,0,0,0,0,0,2,5,4,5
+Femme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Manque de moyens,Entre 20 et 50 dt,2,0,0,0,0,0,0,0,0,0,3,5,5,5
+Homme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,4,4,Entre 5 et 15 min,4 fois par semaine,Moins d'une 1h,5,5,5,4,5,5,5,3,4,4,2,5,3,3,,Entre 50 et 100 dt,2,2,5,0,0,5,5,5,2,3,4,5,2,5
+Femme,20-30 ans,Salarié,Non,Non ,Non,Oui,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Manque de temps,Entre 20 et 50 dt,4,4,4,4,4,4,3,4,1,4,4,5,5,5
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,4,4,Moins de 5 min,Toujours,Entre 1 et 2h,5,4,4,5,1,4,4,1,5,5,2,5,5,5,,Entre 50 et 100 dt,5,5,5,5,1,1,5,5,1,1,4,5,3,1
+Homme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Non,0,0,,5 fois par semaine,Entre 1 et 2h,5,5,5,5,4,5,4,2,4,4,3,5,4,3,"Manque de temps, Manque de motivation",Entre 50 et 100 dt,4,4,5,4,3,3,1,5,1,3,4,5,4,4
+Homme,20-30 ans,Etudiant,Oui,Non ,Non,Non,Non,0,0,,1 fois par semaine,Entre 1 et 2h,5,3,4,3,2,3,4,3,3,2,2,5,5,5,"Manque de temps, Manque de moyens",Entre 20 et 50 dt,2,1,5,3,2,5,3,4,2,5,4,5,5,4
+Homme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Manque de temps, Manque de moyens",Entre 50 et 100 dt,4,5,4,4,1,4,3,3,1,3,3,4,4,5
+Femme,20-30 ans,Etudiant,Non,Oui,Non,Non,Non,0,0,,1 fois par semaine,Moins d'une 1h,3,5,1,1,2,2,2,1,4,5,2,5,5,5,Manque de temps,Entre 20 et 50 dt,3,3,3,3,3,1,2,5,1,5,4,5,5,5
+Homme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,4,3,Entre 5 et 15 min,2 fois par semaines,Entre 1 et 2h,3,3,3,1,5,5,5,2,4,5,2,5,5,3,,Entre 50 et 100 dt,2,1,5,5,5,5,5,5,1,2,4,3,1,1
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,3,4,Moins de 5 min,2 fois par semaines,Entre 1 et 2h,5,5,3,3,3,4,5,3,4,4,2,5,5,5,,Entre 20 et 50 dt,3,2,5,3,3,5,5,5,3,3,4,4,5,5
+Femme,20-30 ans,Etudiant,Non,Non ,Oui,Non,Oui,3,2,Entre 5 et 15 min,1 fois par semaine,Entre 1 et 2h,5,5,5,3,3,5,5,2,3,3,3,3,3,3,,Entre 20 et 50 dt,4,3,3,4,3,3,4,4,3,4,3,5,3,5
+Femme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Manque de temps, Manque de motivation",Moins de 20 dt,1,0,0,0,0,0,0,0,0,0,3,4,0,4
+Femme,20-30 ans,Sans activité professionelle,Non,Non ,Non,Oui,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Manque de temps, Manque de motivation, Manque de moyens",Moins de 20 dt,2,4,0,0,0,0,0,0,0,0,4,5,5,5
+Femme,20-30 ans,Etudiant,Non,Non ,Non,Oui,Non,0,0,,,,3,5,5,1,5,3,4,1,3,3,4,4,4,3,"Manque de temps, Manque de motivation",Entre 20 et 50 dt,3,3,5,1,1,1,5,5,1,5,3,4,3,3
+Homme,40-50 ans,Cadre,Non,Non ,Oui,Non,Non,0,0,,1 fois par semaine,Moins d'une 1h,5,5,5,2,3,5,5,1,3,3,2,4,5,2,Manque de moyens,Moins de 20 dt,3,5,5,1,4,4,1,1,1,5,4,5,5,5
+Femme,30-40 ans,Cadre,Non,Non ,Oui,Non,Oui,4,4,Entre 5 et 15 min,2 fois par semaines,Moins d'une 1h,4,5,5,3,2,3,5,5,5,5,4,5,5,2,,Entre 50 et 100 dt,4,4,5,5,3,5,5,5,1,5,4,4,3,4
+Homme,plus de 50 ans,Retraité,Non,Non ,Oui,Non,Non,0,0,,1 fois par semaine,Entre 2 et 3h,3,3,5,1,1,5,5,1,2,2,2,4,3,1,Manque de temps,Moins de 20 dt,1,5,5,5,5,5,3,1,1,5,2,2,4,4
+Femme,plus de 50 ans,Sans activité professionelle,Non,Non ,Non,Oui,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Manque de temps, Manque de motivation",Entre 50 et 100 dt,3,0,0,0,0,0,0,0,0,0,1,1,5,5
+Homme,plus de 50 ans,Retraité,Non,Non ,Non,Oui,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Manque de moyens,Entre 50 et 100 dt,5,0,0,0,0,0,0,0,0,0,3,4,5,5
+Femme,plus de 50 ans,Retraité,Non,Non ,Non,Oui,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Manque de temps, Manque de moyens",Entre 20 et 50 dt,4,0,0,0,0,0,0,0,0,0,1,1,4,3
+Homme,40-50 ans,Salarié,Oui,Non ,Non,Non,Non,0,0,,2 fois par semaines,Entre 1 et 2h,5,5,5,1,1,4,5,5,3,3,2,4,5,1,"Manque de temps, Manque de motivation",Moins de 20 dt,2,1,1,1,5,5,1,1,5,5,2,3,5,5
+Femme,40-50 ans,Sans activité professionelle,Non,Non ,Non,Oui,Non,0,0,,1 fois par semaine,Entre 1 et 2h,2,3,3,1,1,3,5,1,5,5,1,4,4,2,Manque de temps,Moins de 20 dt,2,5,4,3,4,2,1,1,1,5,1,2,4,4
+Homme,40-50 ans,Salarié,Non,Oui,Non,Non,Oui,3,4,Entre 15 et 30 min,3 fois par semaine,Entre 1 et 2h,5,5,5,1,1,4,5,5,4,5,1,5,5,1,,Entre 50 et 100 dt,4,1,1,1,5,5,4,1,4,5,4,5,5,5
+Homme,30-40 ans,Salarié,Non,Non ,Oui,Non,Oui,3,3,Entre 5 et 15 min,2 fois par semaines,Entre 1 et 2h,5,5,5,4,1,4,4,4,3,3,1,4,4,1,,Plus de 100 dt,5,3,4,5,2,3,5,4,2,5,4,5,5,5
+Homme,plus de 50 ans,Retraité,Non,Non ,Oui,Non,Non,0,0,,5 fois par semaine,Entre 1 et 2h,3,3,5,1,1,4,5,2,3,3,1,4,5,1,,Moins de 20 dt,1,5,1,1,1,1,1,1,1,5,2,3,5,5
+Homme,40-50 ans,Salarié,Non,Non ,Oui,Non,Oui,5,5,Entre 5 et 15 min,4 fois par semaine,Moins d'une 1h,5,5,5,5,1,5,5,5,5,5,2,5,5,5,,Entre 50 et 100 dt,5,4,5,1,2,2,5,5,1,3,4,5,5,5
+Homme,30-40 ans,Cadre,Non,Oui,Non,Non,Oui,3,2,Entre 15 et 30 min,3 fois par semaine,Entre 1 et 2h,4,4,3,1,5,4,4,5,3,4,3,4,4,1,,Entre 20 et 50 dt,3,4,5,5,3,3,5,3,2,4,3,4,3,3
+Femme,plus de 50 ans,Sans activité professionelle,Non,Non ,Non,Oui,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Manque de motivation, Il n'y a pas de sport qui vous corresponds",Entre 50 et 100 dt,4,0,0,0,0,0,0,0,0,0,2,1,5,5
+Femme,30-40 ans,Salarié,Non,Non ,Oui,Non,Oui,5,5,Entre 5 et 15 min,3 fois par semaine,Moins d'une 1h,5,5,0,1,5,3,4,3,3,3,4,5,5,2,,Entre 50 et 100 dt,4,3,4,5,5,5,5,3,2,3,3,3,3,3
+Femme,30-40 ans,Cadre,Non,Non ,Oui,Non,Oui,5,5,Entre 15 et 30 min,4 fois par semaine,Entre 1 et 2h,4,4,4,5,1,3,5,3,3,0,4,5,5,1,,Plus de 100 dt,5,3,5,5,5,5,5,2,2,3,4,5,5,5
+Femme,40-50 ans,Sans activité professionelle,Non,Non ,Non,Oui,Non,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Manque de temps, Manque de motivation, Manque de moyens",Entre 50 et 100 dt,5,0,0,0,0,0,0,0,0,0,1,1,5,5
+Femme,40-50 ans,Cadre,Non,Non ,Oui,Non,Oui,5,5,Entre 5 et 15 min,3 fois par semaine,Moins d'une 1h,5,5,5,5,2,5,5,5,5,5,5,5,5,5,,Plus de 100 dt,5,1,3,3,5,5,5,5,5,5,4,5,5,5
