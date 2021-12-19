@@ -1,0 +1,583 @@
+  ### Questionnaire :
+  
+  Dans le cadre d'etude des preferences des gens dans le domaine sportive en generale 
+et afin d'analyser leurs avis vis a vis le sport , on a lance un questionnaire compose
+de 20 questions pour obtenir a la fin une base de donnee constitue de 99 lignes et 43 colonnes.
+Parmi les variables , 30 sont quantitatives et les restes sont qualitatives. 
+
+
+### Objectif de l'ACP:
+
+Pour notre etude , l'ACP permet de resumer le jeu de donnee et de reduire sa dimentionalite.
+Etude des individus: des individus ont les preference sont similaires , d'ou on essaye de regrouper les individus qui ont le meme caractere sportive et on detecte ceux qui sont exceptionnels.
+
+Etude des variables (les preferences): l'ACP permet d'analyser la liaisons entre les variables et essaye de creer de nouvelles variables synthetique qui decrivent les profils des individus.
+Liens entre les deux etudes: Peut-on caracteriser des groupes d'individus par des variables '.
+
+
+
+
+
+### Installation des librairies necessaire:   
+```{r}
+
+library(FactoMineR)
+
+library(factoextra)
+```
+
+### Importation de la table :
+```{r}
+data=read.csv("C:/Users/hamdi/Desktop/Analyse des donnees/Sportscsv00.csv")
+```
+
+
+
+
+
+
+
+
+# Etude descriptive de quelques variables et representations graphiques:
+
+```{r}
+
+library(tidyverse)
+```
+
+
+1-Selection des variables quantitatives:
+  ```{r}
+tab<-data[,c(9,10,14,15,16,17,18,19,20,21,22,23,24,25,26,27,30,31,32,33,34,35,
+             36,37,38,39,40,41,42,43)]
+str(tab)
+summary(tab)
+```
+
+
+
+
+
+
+
+```{r}
+n<-levels(as.factor(data$Sexe))
+donnee<-table(data$Sexe)
+pourcentage<-round(prop.table(donnee)*100,2)
+pie(donnee, labels=c(paste(n[1],':',pourcentage[1],"%")
+                     , paste(n[2],':',pourcentage[2],"%")),
+    main = "pourcentage des sexes")
+```
+
+La moitié des répondants sont des femmes et l'autre ' moitié sont des hommes. 
+
+
+```{r}
+plot(as.factor(data$CA),col="blue",
+     xlab="Categorie d'age",ylab="Effectif",main="Effectif par tranche d'age")
+```
+
+La tranche d'age la plus présente dans nos projets est celle de 20 à 30 ans  '
+
+
+
+
+```{r}
+nom<-levels(as.factor(data$CSP))
+donne<-table(data$CSP)
+pour<-round(prop.table(donne)*100,2)
+pie(donne,labels=c(paste(nom[1],":",pour[1],"%"),paste(nom[2],":",
+                                                       pour[2],"%"),paste(nom[3],":",pour[3],"%"),
+                   paste(nom[4],":",pour[4],"%"),paste(nom[5],":",
+                                                       pour[5],"%"),paste(nom[6],":",pour[6],"%"),
+                   paste(nom[7],":",pour[7],"%")),radius = 1,
+    col = c("red","yellow","orange","blue","green","brown","black"),main="Effectif par tranche d'age")
+```
+
+La catégorie socio-professionnelle dominante est celle des étudiants de 67.68% puis ceux qui n'ont pas d'activités professionnelle et puis les salarié et les cadres . 
+
+
+
+```{r}
+hist(tab$Conditions,xlab = "Niveau de satisfaction par les conditions ",
+     ylab = "Effectif",main = "Satisfaction des rÃ©pndants par les conditions du club",
+     col = "red")
+```
+
+La majorité des répondants sont moyennement satisfait par les conditions du club dans lequel ils sont inscrits. 
+
+
+```{r}
+hist(tab$Le.plaisir,xlab = "relation entre le sport et le plaisir",ylab = "Effectif",
+     main = "Effectif pour plaisir",col = "green")
+```
+
+La majorité pratique le sport pour le plaisir.
+
+
+
+
+
+
+
+### Pertinence de l'ACP:
+```{r}
+library(corrplot)
+bienfaits<-data[,c(14,15,16,17,18,19,20,21,22,23,24,25,26,27)]
+X1<-as.matrix(bienfaits)
+M1<-cor(X1)
+library(RColorBrewer)
+corrplot(M1, type="upper", order="hclust", 
+         col=brewer.pal(n=8, name="RdBu"))
+```
+
+Il y'a pas mal des variables qui sont corrlées positivement entre eux ce qui rend notre ACP pertinente. 
+
+
+# Analyse des composantes principales sur les bienfaits de pratiquer du sport :
+
+
+
+
+### 1-Centrer et rÃ©duire la matrice X:
+
+```{r}
+X=as.matrix(bienfaits)
+g=colMeans(X)
+g
+```
+
+
+```{r}
+Y=sweep(x = X,2,g,FUN = '-')
+round(colMeans(X),3)
+```
+
+
+### 2-Calculer l'ecart type pour rÃ©duire les variables:
+  
+  ```{r}
+n=nrow(X)
+p=ncol(X)
+et=apply(Y,2,function(x) sqrt(sum(x^2)/n))
+et
+```
+
+
+
+### 3-Calculer la matrice centrÃ©e rÃ©duite Z:
+
+```{r}
+Z=sweep(x = Y,2,et,FUN = '/')
+colSums(Z^2)/n
+```
+
+
+
+### 4-Calcul de la matrice de corrÃ©lation , les valeurs propres et les vecteurs propres :
+
+```{r}
+M=diag(rep(1,p)) 
+D=(1/n)*diag(rep(1,n))
+R=t(Z)%*%D%*%Z
+vp=eigen(R %*%M)
+lambda=vp$values
+lambda
+```
+
+
+
+
+
+```{r}
+U=vp$vectors
+U
+```
+
+
+
+
+
+### 5-VÃ©rifier que les vecteurs propres sont onrthonormÃ©s:
+
+```{r}
+round(t(U)%*%U,3)
+```
+
+
+
+
+### 6-Calculer la matrice des composantes principales :
+
+```{r}
+Psi=Z%*%U
+Psi
+```
+
+
+
+
+### 7-VÃ©rifier que la variance de chaque composantes est egale a la valeur propre correspondante:
+
+```{r}
+round(t(Psi)%*%D%*%Psi,3)
+```
+
+
+
+
+### 8-Calculer la matrice Eta des coordonnÃ©es des variables sur les axes principaux:
+
+```{r}
+Eta<-sweep(U,2,sqrt(lambda),FUN='*')
+Eta 
+```
+
+
+
+
+
+### 9-Choix de nombre d'axe a retenir:
+
+```{r}
+data1<-data[,c(1,14,15,16,17,18,19,20,21,22,23,24,25,26,27)]
+res.pca=PCA(data1,ncp = 5,quali.sup = 1,graph = F)
+```
+
+Trois criteres devront etre utlisÃ©s : taux d'inertie cumulÃ©, critere de Kaiser et critere du coude.
+
+
+
+
+
+```{r}
+data2<-data[,c(3,14,15,16,17,18,19,20,21,22,23,24,25,26,27)]
+res.pca2=PCA(data2,ncp = 5,quali.sup = 1,graph = F)
+```
+
+
+### 10-Critere de taux d'inertie cumulÃ©:
+  
+  ```{r}
+head(res.pca$eig)
+```
+
+Les deux premiers axes portent plus de 78 % de l'information totale et qui est un taux important vu qu'on a 14 variables donc on va retenir les deux premiers axes d'aprÃ©s ce critere 
+
+
+
+
+
+### 11-Critere de Kaiser :
+
+D'aprÃ©s ce critere on va retenir le  premier axe puisque sa valeure propre correspondante est supÃ©rieure strictement a 1
+
+
+
+
+### 12-Critere de Coude :
+
+```{r}
+fviz_screeplot(res.pca, ncp=10)
+```
+
+D'aprÃ©s ce critere on va retenir les 2 premiers axes puisque le coude se trouve au niveau de deuxieme axe
+
+
+En faisant une sorte de vote sur les trois criteres,on doit retenir les 2 premiers axes 
+
+
+
+
+
+### 12-Interpretation de la cartes des variables :
+
+```{r}
+names(res.pca$var)
+```
+
+### 13-Coordonnee des variables :
+
+```{r}
+res.pca$var$coord
+```
+
+
+### 14-cos2 des variables :
+
+```{r}
+res.pca$var$cos2
+```
+
+
+```{r}
+fviz_pca_var(res.pca)
+```
+
+Presque toutes les variables telles que "Plaisir","Defoulement",
+"Perdre le poids","Entretenir le corps","Avoir plus d'energie",
+"Equilibre de vie","Reduire le stress","Eviter la routine","confiance",
+.....,sont corrolÃ©es positvement avec le premier axe .
+Si on devait donner un nom a cet axe ca serait l'axe de "Motivation".
+
+Les variables "perdre le poids" et "Developper la souplesse " sont un peu fortement corrolÃ©es
+avec le deuxieme axes qu'on peut l'appeler axe de "AgilitÃ©".
+
+Le deuxieme axe ("AgilitÃ©") oppose la variable "Perdre le poids" a la variable "Rencontrer de nouvelles personnes".
+
+Donc un individu qui cherche d'avoir des nouvelles relation , il y a une forte probabilitÃ© qu'il ne cherche pas d'etre agile .
+
+
+
+```{r}
+fviz_pca_var(res.pca, col.var="cos2") +
+  scale_color_gradient2(low="white", mid="blue", 
+                        high="red", midpoint=0.6) + 
+  theme_minimal()
+```
+
+Notons que la qualitÃ© de reprÃ©sentation d'une variable sur le premier plan est 
+donnÃ©e par la somme de ses cos2 sur chacun des 2 premiers axes.
+
+
+
+
+
+### 15-Carte des individus:
+
+```{r}
+fviz_pca_ind(res.pca,geom = "point",col.ind.sup = 'gray')
+fviz_pca_ind(res.pca,geom = "point",col.ind="cos2")+
+  scale_color_gradient2(low="blue", mid="white", 
+                        high="red", midpoint=0.5)
+```
+
+Notons que la qualitÃ© de reprÃ©sentation d'un individu sur le premier plan est 
+donnÃ©e par la somme de ses cos2 sur chacun des 2 premiers axes.
+
+
+
+
+
+### 16-Croissement avec la variable sexe :
+
+```{r}
+plot.PCA(res.pca, axes=c(1, 2), choix="ind", habillage=1, cex=0.8)
+```
+
+Les deux catÃ©gories sexuelles ont presque des coordonnÃ©es egales sur le 
+premier axes sauf qu'il y a condensation importante des Hommes que des Femmes
+sur la partie droite de l'axe ce qui explique que les Hommes sont plus motivÃ©s que les Femmes  
+
+
+```{r}
+plot(res.pca, choix="ind", cex=0.7)
+```
+
+Meme conclusion en se basant sur les position des modalites de la variable 
+qualitative "sexe": Homme lÃ©germent a droite de l'axe 1 par rapport a la modalitÃ© Femme '.
+
+
+
+### 17-Croissement avec la variable CSP:
+
+```{r}
+plot.PCA(res.pca2, axes=c(1, 2), choix="ind", habillage=1, cex=0.8)
+```
+
+Les cadres,les etudiants les salariÃ©s sont les catÃ©gories les plus motivÃ©s .
+De plus les cadres et les salariÃ©s cherche d'avoir des nouvelles amis alors que les etudiants cherche d'etre agile et souple.
+Les retraitÃ©s et ceux qui n'ont pas d'activitÃ© professionelle sont plutot non motivÃ©s
+
+
+
+
+```{r}
+plot(res.pca2, choix="ind", cex=0.7)
+```
+
+
+
+
+
+# Analyse Factorielle des correspondances sur les variables "CSP" et "Budget mensuelle":"
+
+```{r}
+tab1<-table(data$CSP,data$Budget.mensuel)
+tab1
+```
+```{r}
+addmargins(tab1)
+```
+
+
+```{r}
+prop.table(tab1)
+```
+
+```{r}
+addmargins(prop.table(tab1))
+```
+
+
+```{r}
+f<-round(100*tab1/sum(tab1),1)
+f
+```
+
+
+### Detemination de profil ligne et de profil colonne :
+
+```{r}
+prof_lig<-addmargins(prop.table(addmargins(tab1,1),1),2)
+prof_lig
+```
+
+
+```{r}
+prof_col<-addmargins(prop.table(addmargins(tab1,2),2),1)
+prof_col
+```
+
+
+```{r}
+library(questionr)
+lprop(tab1)
+```
+
+Parmi les etudiants , 64.2% investissent entre 20 et 50 dt , 22.4% entre 50 et 100dt , 7.5% investissent moins de 20dt , 6% plus de 100dt 
+
+
+```{r}
+cprop(tab1)
+```
+
+Parmi ceux qui investissent plus de 100 dt dans le sport , 25% sont des cadres , 50% sont des etudiants , 12.5% sont des salariÃ©s , 12.5% sont ceux qui n'ont pas d'activitÃ© professionnelles 
+
+
+### Test de Khi-deux:
+
+On va calculer le test de Khi-deux pour savoir est ce que l' AFC est pertinente ou non pour ces variables choisies
+
+```{r}
+test<-chisq.test(tab1)
+test
+```
+
+La valeur de $\chi^2$ est egale a 33.481
+Le degrÃ© de libertÃ© du $\chi^2$ est de  $(p-1)*(q-1)=(7-1)(4-1)=18$
+La p-value Ã©tant infÃ©rieur a 5%  ,donc on peut donc rejeter l'hypothese d'indÃ©pendance : l'AFC est donc pertinente !
+  
+  
+  
+  ### ExÃ©cution de l'AFC:
+  
+  ```{r}
+res.ca<-CA(tab1,graph=F)
+summary(res.ca)
+```
+
+
+### Coix de nombre d'axe a retenir:
+
+```{r}
+eig.val <- res.ca$eig
+round(res.ca$eig,3)
+```
+
+
+```{r}
+barplot(eig.val[, 2], 
+        names.arg = 1:nrow(eig.val), 
+        main = "Variances Explained by Dimensions (%)",
+        xlab = "Principal Dimensions",
+        ylab = "Percentage of variances",
+        col ="steelblue")
+
+lines(x = 1:nrow(eig.val), eig.val[, 2], 
+      type = "b", pch = 19, col = "red")
+```
+
+Les deux premiers axes portent plus de 94% de l'information totale', donc d'apres le critere de taux d'inertie cumule il est clair qu'on va retenir ces deux axes.
+'
+
+
+
+### ReprÃ©sentation et interprÃ©tation de la carte des profils-colonnes:
+
+```{r}
+round(cbind(res.ca$col$coord[,1:2],res.ca$col$contrib[,1:2], res.ca$col$cos2[,1:2]),2)
+```
+
+
+```{r}
+plot(res.ca, invisible="row")
+```
+
+
+
+```{r}
+# Carte qui permet de controler automatiquement la couleur selon la contribution
+
+fviz_ca_col(res.ca, col.col = "contrib")+
+  scale_color_gradient2(low = "white", mid = "blue",
+                        high = "red", midpoint = 25) +
+  theme_minimal()
+```
+
+
+```{r}
+# Carte qui permet de controler automatiquement la couleur selon le cos2
+
+fviz_ca_col(res.ca, col.col="cos2")
+```
+
+Le premier plan oppose "Entre 20 et 50dt"(contrib=35.8%) a "Moins de 20dt"(contrib=60%) ce qui signifie que les CSP qui investissent entre 20 et 50dt sont different a ceux qui investissent moins de 20dt.
+Le deuxieme axe est explique principalement par "Plus de 100dt" (contrib=54.6%)
+"Entre 20 et 50dt" possede des faibles contributions sur les deux axes , a un cos de 0.99 (0.9+0.09) d'ou il est bien represente par ce plan '
+
+
+### ReprÃ©sentation et interprÃ©tation de la carte des profils-lignes:
+
+```{r}
+round(cbind(res.ca$row$coord[,1:2],res.ca$row$contrib[,1:2], res.ca$row$cos2[,1:2]),2)
+```
+```{r}
+plot(res.ca, invisible="col")
+```
+
+
+```{r}
+# Carte qui permet de controler automatiquement la couleur selon la contribution
+
+fviz_ca_row(res.ca, col.row = "contrib")+
+  scale_color_gradient2(low = "white", mid = "blue",
+                        high = "red", midpoint = 25) +
+  theme_minimal()
+```
+
+```{r}
+# Carte qui permet de controler automatiquement la couleur selon le cos2
+
+fviz_ca_row(res.ca, col.row = "cos2")
+```
+
+Le  premier plan oppose eleve a entrepneur.
+Le deuxieme plan oppose Cadre a entrepreneur.
+Salarie a des faibles contributions(11.7% et 13.18%) et  un cos moyennement important (0.79)
+
+
+
+
+### Carte de reprÃ©sentation simultannÃ©e:
+
+```{r}
+# Biplot symÃ©trique des lignes et des colonnes
+fviz_ca_biplot(res.ca)
+```
+
+La carte de reprÃ©sentation simultannÃ©e montre une correpondance entre les modalitÃ©s cadre et Plus de 100dt , etudiant et  Entre 20 et 50dt, Sans activite professionnelle et Moins de 20dt , Salarie et Entre 50 et 100dt .
+
+Les modalites "Entre 20 et 50dt" et "Entre 50 et 100dt" ont des positions centrales ceci est du au fait que presque tous les CSP peuvent investir entre 20 et 100dt dans le domaine sportif comme le montre le tableau de profil ligne :64.2% et 22.4% pour les etudiant et 12.5% et 50% pour les salarie.
+
+Le lien entre Retraite et "Moins de 20dt" n'est pas symetrique '.En fait d'apres le tableau profil ligne , 50% des Retraite investissent moins de 20dt tandis que dans la modalite "Moins de 20dt" on trouve 31.2% sont des etudiants , 12.5% sont des retraite.  '
