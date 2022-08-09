@@ -1,4 +1,4 @@
-# Analyse-des-donnees-
+# Analyse des donnees
 Analyse des composantes principales / Analyse factorielle des composantes 
 
 
